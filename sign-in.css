@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/sign-in-picture.png);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-blend-mode: soft-light;
+}
+
+.container {
+  align-items: center;
+  width: 21rem;
+  margin: auto;
+  padding: 1rem;
+  background-color: hsla(0, 0%, 0%, 0.8);
+  justify-content: center;
+  margin: auto;
+}
+
+
+.container form .text-input {
+  width: 100%;
+  padding: .9rem;
+  margin: .8rem 0rem;
+  border-radius: .2rem;
+  border: none;
+  background-color: hsl(0, 0%, 15%);
+  font-size: 1rem;
+}
+
+.container form button {
+  padding: .9rem 0rem;
+  border-radius: .1rem;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  background-color: hsl(0, 80%, 50%);
+  color: hsl(0, 90%, 100%);
+  font-size: 1rem;
+}
+
+.container form div {
+  margin-top: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  width: 15px;
+  height: 18px;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+span {
+  color: rgb(125, 119, 119);
+  padding-top: 300px;
+}
+
+form a {
+  float: right;
+  margin-right: 10px;
+  color: rgb(125, 119, 119);
+  text-decoration: none;
+}
+
+.container, .content {
+  margin-top: 40px;
+  font-size: 9px;
+}
+
+.container h2 {
+  margin-top: 15px;
+  color: rgb(125, 119, 119);
+}
+
+.container img {
+  margin-right: 8px;
+
+}
+
+.container p {
+  margin-top: 30px;
+  color: rgb(125, 119, 119);
+}
+
+.sign-up a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*.content {
+  position: absolute;
+  margin-top: 80px;
+  font-size: 9px;
+  margin-left: 55px;
+}
+
+.content img {
+  margin-left: 30px;
+}
+
+.content p {
+  color: rgb(125, 119, 119);;
+  padding-left: 30px;
+}
+
+.content h2 {
+  color: rgb(125, 119, 119);
+}
+
+.sign a {
+  
+}*/
